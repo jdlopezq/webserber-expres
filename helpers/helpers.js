@@ -1,7 +1,7 @@
 const hbs = require('hbs');
 
 hbs.registerHelper('getYear',()=>{
-    return new Date().getFullYear
+    return new Date().getFullYear()
 })
 hbs.registerHelper('capitalice',(text)=>{
 
